@@ -1,16 +1,14 @@
 colors:
-  light_gray: 'cdcdcd'
-  dark_gray: '433c39'
+  light_gray: 'c6c6c6'
+  dark_gray: '3a3a3a'
+  black: '080808'
 
-  light_mint: 'aaf0d1'
-  mint: '35db92'
-  deep_green: '147349'
+  light_mint: 'c2fbd9'
+  mint: '67d38e'
+  deep_green: '3e8562'
 
-  light_pink: 'f0aac9'
-  pink: 'db357e'
-
-  black: '030f0a'
-  
+  light_pink: 'f2b3d5'
+  pink: 'e84686'
 
 core:
   regular_file: 
