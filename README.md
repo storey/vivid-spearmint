@@ -12,18 +12,16 @@ This may undergo updates as I use it in real life and see how I like it.
 ![example of theme](example.png)
 
 ## Palette
-Colors adapted from [this lovely color palette](https://colorpalettes.net/color-palette-1348/) and variants of ["magic mint"] (https://www.colorhexa.com/aaf0d1).
+Colors adapted from [this lovely color palette](https://colorpalettes.net/color-palette-1348/) and variants of ["magic mint"](https://www.colorhexa.com/aaf0d1).
 
-light_gray: #c6c6c6, 251
-dark_gray: #3a3a3a, 237
-black: #080808, 232
-
-light_mint: #c2fbd9, 158
-mint: #67d38e, 042
-deep_green: #3e8562, 029
-
-light_pink: #f2b3d5, 218
-pink: #e84686, 198
+- light_gray: #c6c6c6, 251
+- dark_gray: #3a3a3a, 237
+- black: #080808, 232
+- light_mint: #c2fbd9, 158
+- mint: #67d38e, 042
+- deep_green: #3e8562, 029
+- light_pink: #f2b3d5, 218
+- pink: #e84686, 198
 
 
 ## Installation (LS_COLORS)
@@ -35,7 +33,7 @@ cp spearmint.yml ~/.config/vivid/themes/spearmint.yml
 3. Add `export LS_COLORS="$(vivid generate spearmint)"` to your `~/.zshrc`.
 
 ## Installation (Powerlevel10k)
-Update the following lines in `~/.p10k.zsh` to have the given colors:
+Update the following lines in `~/.p10k.zsh` to have the given colors (note these are not contiguous in the config file):
 ```
 typeset -g POWERLEVEL9K_PROMPT_CHAR_OK_{VIINS,VICMD,VIVIS,VIOWR}_FOREGROUND=42 # mint; was 76
 typeset -g POWERLEVEL9K_PROMPT_CHAR_ERROR_{VIINS,VICMD,VIVIS,VIOWR}_FOREGROUND=198 # pink; was 196
