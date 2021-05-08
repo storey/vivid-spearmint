@@ -1,0 +1,106 @@
+colors:
+  light_gray: 'cdcdcd'
+  dark_gray: '433c39'
+
+  light_mint: 'aaf0d1'
+  mint: '35db92'
+  deep_green: '147349'
+
+  light_pink: 'f0aac9'
+  pink: 'db357e'
+
+  black: '030f0a'
+  
+
+core:
+  regular_file: 
+    foreground: mint
+
+  directory:
+    foreground: deep_green
+    font-style: bold
+
+  executable_file:
+    foreground: pink
+
+  symlink:
+    foreground: light_pink
+
+  broken_symlink:
+    foreground: black
+    background: light_pink
+  missing_symlink_target:
+    foreground: black
+    background: light_pink
+
+  fifo:
+    foreground: black
+    background: light_mint
+
+  socket:
+    foreground: black
+    background: light_mint
+
+  character_device:
+    foreground: black
+    background: light_mint
+
+  block_device:
+    foreground: black
+    background: light_mint
+
+  normal_text:
+    {}
+
+  other_writable:
+    {}
+
+  sticky:
+    {}
+
+  sticky_other_writable:
+    {}
+
+text:
+  special:
+    foreground: black
+
+  todo:
+    foreground: black
+
+  licenses:
+    foreground: black
+
+  configuration:
+    foreground: mint
+
+  other:
+    foreground: black
+
+markup:
+  foreground: black
+
+programming:
+  source:
+    foreground: mint
+
+  tooling:
+    foreground: mint
+
+    continuous-integration:
+      foreground: mint
+
+media:
+  foreground: black
+
+office:
+  foreground: black
+
+archives:
+  foreground: black
+
+executable:
+  foreground: pink
+
+unimportant:
+  foreground: light_gray
