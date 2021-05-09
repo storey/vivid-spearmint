@@ -45,4 +45,6 @@ typeset -g POWERLEVEL9K_STATUS_OK_PIPE_FOREGROUND=42 # mint; was 70
 typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND=198 # pink; was 160
 typeset -g POWERLEVEL9K_STATUS_ERROR_SIGNAL_FOREGROUND=198 # pink; was 160
 typeset -g POWERLEVEL9K_STATUS_ERROR_PIPE_FOREGROUND=198 # pink; was 160
+local      clean='%42F'   # green foreground, was 76
+local conflicted='%198F'  # red foreground, was 196
 ```
