@@ -1,35 +1,31 @@
 colors:
-  light_gray: 'c6c6c6'
-  dark_gray: '3a3a3a'
-  black: '080808'
+  light_gray: "c6c6c6"
+  dark_gray: "3a3a3a"
+  black: "080808"
 
-  light_mint: 'c2fbd9'
-  mint: '67d38e'
-  deep_green: '3e8562'
+  light_mint: "c2fbd9"
+  mint: "67d38e"
+  deep_green: "3e8562"
 
-  light_pink: 'f2b3d5'
-  pink: 'e84686'
+  light_pink: "f2b3d5"
+  pink: "e84686"
 
 core:
-  regular_file: 
+  normal_text:
+    foreground: mint
+  regular_file:
+    foreground: mint
+  reset_to_normal:
     foreground: mint
 
   directory:
     foreground: deep_green
     font-style: bold
 
-  executable_file:
-    foreground: pink
-
   symlink:
     foreground: light_pink
 
-  broken_symlink:
-    foreground: black
-    background: light_pink
-  missing_symlink_target:
-    foreground: black
-    background: light_pink
+  multi_hard_link: {}
 
   fifo:
     foreground: black
@@ -38,26 +34,33 @@ core:
   socket:
     foreground: black
     background: light_mint
-
-  character_device:
+  door:
     foreground: black
     background: light_mint
 
   block_device:
     foreground: black
     background: light_mint
+  character_device:
+    foreground: black
+    background: light_mint
 
-  normal_text:
-    {}
+  broken_symlink:
+    foreground: black
+    background: light_pink
+  missing_symlink_target:
+    foreground: black
+    background: light_pink
 
-  other_writable:
-    {}
+  setuid: {}
+  setgid: {}
+  file_with_capability: {}
+  sticky_other_writable: {}
+  other_writable: {}
+  sticky: {}
 
-  sticky:
-    {}
-
-  sticky_other_writable:
-    {}
+  executable_file:
+    foreground: pink
 
 text:
   special:
